@@ -468,12 +468,12 @@ footer {
     margin-block: 6%;
   }
 
-  .persons {
+  .person {
     display: block;
   }
 
   .person {
-    padding: 5%;
+    padding: 1%;
   }
 
   .backFrame {
@@ -524,6 +524,7 @@ footer {
   footer {
     font-size: 0.8rem;
     padding: 7%;
+    gap: 5%;
   }
 
   .logoDescription {
