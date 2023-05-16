@@ -444,6 +444,12 @@ footer {
     flex-direction: column;
   }
 
+  .personsList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
   .program .icon {
     font-size: 1.6rem;
   }
@@ -469,8 +475,8 @@ footer {
   }
 
   .person {
-    display: block;
-    padding: 1%;
+    display: flex;
+    gap: 1rem;
   }
 
   .backFrame {
