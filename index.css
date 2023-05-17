@@ -1,0 +1,596 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.topNav {
+  background-color: rgb(76, 38, 38);
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+}
+
+.topNav .navList {
+  justify-content: flex-end;
+  padding: 1% 17%;
+  gap: 2.188rem;
+}
+
+.nav-content {
+  text-decoration: none;
+}
+
+.topNav .nav-content {
+  color: rgb(248, 100, 100);
+}
+
+.topNav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menuIcon {
+  display: none;
+}
+
+#close {
+  display: none;
+}
+
+.topNav2 .navList {
+  font-size: 1.125rem;
+  gap: 1.563rem;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  width: 200px;
+  height: 70px;
+}
+
+.topNav2 .nav-content {
+  color: black;
+}
+
+.topNav2 .navBtn {
+  padding: 15%;
+  color: rgb(60, 64, 103);
+  border: 4px solid rgb(59, 45, 102);
+}
+
+.topSection {
+  background-image: url(./images/bg_img.jpg);
+  height: 100vh;
+}
+
+.inner-div {
+  padding-block: 6%;
+  padding-inline: 4%;
+}
+
+.introHeading {
+  color: orangered;
+  font-size: 1.875rem;
+}
+
+.intro {
+  background-color: #fff;
+  line-height: 1.563rem;
+  margin-block: 2%;
+  padding: 2%;
+  width: 70%;
+}
+
+.mainHeading {
+  color: transparent;
+  font-weight: bold;
+  background-image: url(./images/orangeImg.jpg);
+  -webkit-background-clip: text;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.venue {
+  padding-block: 1%;
+  color: rgb(123, 110, 110);
+}
+
+.date {
+  color: rgb(209, 161, 161);
+  padding-block: 3%;
+}
+
+.second-section {
+  background-image: url(./images/dotedBg.png);
+  color: #fff;
+  background-color: #2a4073;
+  padding: 2%;
+}
+
+.second-section .inner-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hr {
+  width: 10%;
+  border-color: red;
+  margin-inline: auto;
+  margin-top: 1%;
+}
+
+.ul-head {
+  color: rgb(225, 202, 196);
+  font-size: 1.562rem;
+}
+
+.inner-div .ul-head {
+  padding: 5%;
+}
+
+.program {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff1;
+  padding: 2%;
+}
+
+.programList {
+  list-style: none;
+  display: flex;
+  padding-block: 3%;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.icon {
+  font-size: 1em;
+}
+
+.description {
+  font-size: 14px;
+  padding: 2%;
+}
+
+.details {
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 2.5rem 0;
+}
+
+.btn {
+  display: none;
+}
+
+.persons {
+  padding: 2%;
+}
+
+.personsList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 45px;
+  padding: 5%;
+}
+
+.persons .inner-div {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.person {
+  display: flex;
+  gap: 10px;
+}
+
+.backFrame {
+  display: flex;
+  background-image: url(./images/bgFrame.png);
+  background-size: 60% 60%;
+  background-repeat: no-repeat;
+  justify-content: end;
+  align-items: flex-end;
+  width: 90%;
+}
+
+.person-detail {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.personImg {
+  width: 92%;
+  height: 92%;
+}
+
+.person-name h3 {
+  float: left;
+  padding: 2%;
+}
+
+.person-affiliation h4 {
+  float: left;
+  color: rgb(255, 55, 0);
+  font-style: italic;
+}
+
+.person-description p {
+  padding-block: 3%;
+}
+
+.partners {
+  background-color: #272a31;
+  color: #fff;
+}
+
+.partnersList {
+  list-style: none;
+  display: flex;
+  gap: 6rem;
+  padding-inline: 5%;
+  padding-block: 4%;
+}
+
+.partners .inner-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.partnersListLogo {
+  width: fit-content;
+  height: 2rem;
+  object-fit: contain;
+}
+
+.email {
+  font-size: 1.3rem;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logoDescription {
+  padding-inline: 20%;
+  padding-block: 5%;
+}
+
+.logo-img {
+  width: 45%;
+}
+
+.pastEvents {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.pastDescription {
+  padding-block: 2%;
+}
+
+.pastEvent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 23vw;
+  height: 25vh;
+  color: #fff;
+  gap: 10px;
+}
+
+.event1 {
+  background: linear-gradient(rgba(199, 70, 55, 0.8), rgba(236, 82, 66, 0.8)), url(./images/win1.jpg);
+  background-repeat: no-repeat;
+}
+
+.event2 {
+  background: linear-gradient(rgba(199, 70, 55, 0.8), rgba(236, 82, 66, 0.8)), url(./images/win2.jpg);
+  background-repeat: no-repeat;
+}
+
+.aboutPageFooter {
+  background-color: black;
+  color: #fff;
+}
+
+.divider {
+  border: 1px solid rgb(243, 236, 236);
+}
+
+.seeMoreBtn {
+  display: none;
+}
+
+.partnerSection {
+  display: block;
+}
+
+.aboutPatSec {
+  display: none;
+}
+
+.less {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .topNav {
+    display: none;
+  }
+
+  .topNav2 .logo {
+    display: none;
+  }
+
+  .topNav2list {
+    display: none;
+  }
+
+  .navBtn {
+    display: none;
+  }
+
+  .menuModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(./images/bg_img.jpg);
+    width: 100vw;
+    height: 100vh;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 3rem;
+  }
+
+  .menuIcon {
+    display: block;
+    font-size: 2rem;
+    padding: 1%;
+    color: black;
+  }
+
+  .active .menuIcon {
+    display: none;
+  }
+
+  #close {
+    display: block;
+    color: red;
+    font-weight: 900;
+  }
+
+  .topNav2 .nav-content {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
+
+  .introHeading {
+    padding-top: 12%;
+    font-size: 1.3rem;
+  }
+
+  .mainHeading {
+    font-size: 1.6rem;
+    letter-spacing: 0.13rem;
+    padding-block: 2%;
+    font-weight: 900;
+  }
+
+  .intro {
+    width: 100%;
+    margin-block: 4%;
+  }
+
+  .date {
+    font-size: 1.6rem;
+    padding-top: 4%;
+  }
+
+  .venue {
+    font-size: 1.1rem;
+    padding-top: 2%;
+  }
+
+  .program {
+    display: grid;
+    grid-template-columns: 10% 30% 60%;
+    grid-gap: 0.4rem;
+    padding: 5%;
+    width: 90vw;
+    text-align: left;
+  }
+
+  .programList {
+    flex-direction: column;
+  }
+
+  .personsList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .program .icon {
+    font-size: 1.6rem;
+  }
+
+  .ul-head {
+    font-size: 1.3rem;
+  }
+
+  .details {
+    display: none;
+  }
+
+  .btn {
+    display: block;
+    color: #fff;
+    background-color: orangered;
+    padding: 5%;
+    width: 90%;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    margin-block: 6%;
+  }
+
+  .person {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .backFrame {
+    width: 95%;
+  }
+
+  .personImg {
+    height: 93%;
+  }
+
+  .person-description {
+    font-size: 0.8rem;
+  }
+
+  .person-3 {
+    display: none;
+  }
+
+  .person-4 {
+    display: none;
+  }
+
+  .seeMoreBtn {
+    display: block;
+    background: #fff;
+    padding-block: 3%;
+    font-size: 0.8rem;
+    width: 90%;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  .seeMoreBtn .down-arrow {
+    color: red;
+  }
+
+  .partnersList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.6rem;
+    padding: 8%;
+  }
+
+  .partnersListLogo {
+    width: 70%;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 7%;
+    gap: 5%;
+  }
+
+  .logoDescription {
+    padding-inline: 10%;
+    padding-block: 8%;
+  }
+
+  .logo-img {
+    width: 95%;
+  }
+
+  .homepage-footer .logo img {
+    width: 70%;
+  }
+
+  .logo-inner-div {
+    padding: 10%;
+  }
+
+  .pastDescription {
+    padding-block: 10%;
+  }
+
+  .pastEvents {
+    flex-direction: column;
+  }
+
+  .pastEvent {
+    width: 73vw;
+  }
+
+  .partnerSection {
+    display: none;
+  }
+
+  .homepage-footer {
+    display: none;
+  }
+
+  .aboutPatSec {
+    display: block;
+  }
+
+  .aboutPageFooter .logo img {
+    width: 80%;
+  }
+
+  .aboutPageFooter {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .program .icon {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.6rem;
+  }
+
+  .ul-head {
+    font-size: 0.9rem;
+  }
+}
